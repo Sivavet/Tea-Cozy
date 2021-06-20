@@ -79,6 +79,10 @@ nav ul a {
 
 .box {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
 }
 
 main {
