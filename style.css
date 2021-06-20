@@ -58,7 +58,6 @@ nav ul a {
     width: 1000px;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 #FeaturedTea img {
