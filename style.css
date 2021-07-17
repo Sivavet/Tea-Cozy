@@ -11,7 +11,6 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    /* margin-top: -10px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +33,14 @@ nav ul a {
     justify-content: space-between;
     margin: 0 10px;  
     color: seashell;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
 }
 
 #Mission {
@@ -60,10 +67,25 @@ nav ul a {
     flex-direction: column;
 }
 
+#Chapter {
+    text-align: center;
+}
+#FeaturedTea article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.tea-box{
+    margin: 10px;
+    line-height: 10px;
+}
 #FeaturedTea img {
     height: 200px;
     width: 300px;
 }
+
 
 #Locations {
     background-image: url(/resource/img-locations-background.jpg);
@@ -72,45 +94,33 @@ nav ul a {
     background-size: cover;
     height: 500px;
     width: 1200px;
+    
+    text-align:center;
+}
+
+#Locations > article{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
 .box {
+    width: 300px;
+    margin: 40px 15px;
     background-color: black;
+    text-align: center;
+}
+#Locations > article .box:last-child{
+    opacity: 1;
 }
 
-main {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}
-
-#Chapter {
+footer{
+    height: 200px;
     text-align: center;
 }
 
-.rows-1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+footer h5:last-child{
+    position: relative;
+    left: 20px;
+    text-align: left;
 }
-
-.rows-2 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: row;
-}
-
-.rows-1 h4 {
-    margin-top: 10px;
-}
-
-.rows-2 h4 {
-    margin-top: 10px;
-}
-
